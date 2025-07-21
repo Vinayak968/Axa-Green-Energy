@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--default-theme-font);
+}
+
+body {
+  padding-top: 70px;
+}
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+}
+
+.nav-left {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.logo div:nth-of-type(2n) {
+  margin-left: 5%;
+}
+
+.logo div:nth-of-type(2n) h1 {
+  font-size: 20px;
+}
+
+.nav-right {
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.nav-links {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.n-links {
+  padding: 2.5%;
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.2s ease-in 0.1s;
+}
+
+.n-links:hover {
+  color: var(--default-theme-color);
+}
+
+.nav-login {
+  height: 100%;
+  width: 15%;
+  cursor: pointer;
+}
+
+.nav-login-btn {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-login-btn button {
+  height: 2.5em;
+  width: 75%;
+  cursor: pointer;
+  padding: 2.8%;
+  background-color: var(--default-theme-color);
+  border: none;
+  color: #ffffffff;
+  font-size: 17px;
+  border-radius: 10%;
+}
+
+.nav-rbar {
+  display: none;
+}
+
+@media (max-width: 799px) {
+  .nav-right {
+    display: none;
+  }
+  .nav-rbar {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 20%;
+  }
+  .r-bars {
+    cursor: pointer;
+  }
+  .navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+  .nav-left {
+    width: 50%;
+  }
+  .logo {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 544px) {
+  .logo div:nth-of-type(2n) h1 {
+    font-size: 16px;
+  }
+  .logo div:nth-of-type(1n) img {
+    height: 35px;
+  }
+  .r-bars img {
+    height: 20px;
+    width: 25px;
+  }
+}
+
+.slider {
+  position: fixed;
+  top: 70px;
+  height: 100%;
+  width: 100%;
+  background-color: var(--default-theme-color);
+  padding: 5%;
+  transform: translateX(-1750px);
+  transition: transform 0.4s ease-in;
+}
+
+.cross-slider {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  align-content: center;
+}
+
+.cs-link {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  border-bottom: 1px solid #ffffff;
+}
+
+.cs-link a {
+  text-decoration: none;
+  color: #ffffffff;
+  font-size: 18px;
+}
+
+.cs-login {
+  height: 2.5em;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 5%;
+  background-color: var(--default-login-btn-bg);
+  border: none;
+  color: #ffffffff;
+  font-size: 17px;
+  text-align: center;
+}
+
+.cs-icon {
+  cursor: pointer;
+}

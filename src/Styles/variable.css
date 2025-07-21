@@ -1,0 +1,6 @@
+:root {
+  --default-theme-font: "Open Sans", sans-serif;
+  --default-theme-color: #22c55e;
+  --default-home-logo-height: 50px;
+  --default-login-btn-bg: #16a34a;
+}
