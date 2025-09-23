@@ -1,0 +1,44 @@
+@media (max-width: 910px) {
+  .nav-right {
+    width: 55%;
+  }
+  .n-l-text h2 {
+    font-size: 15px;
+  }
+  .n-links a {
+    font-size: 12px;
+  }
+  .nav-login-btn button {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 644px) {
+  .nav-left {
+    width: 50%;
+  }
+  .n-l-text h2 {
+    font-size: 13px;
+  }
+  .nav-right {
+    display: none;
+  }
+  .n-r-bar {
+    height: 100%;
+    width: 40%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+  }
+  .n-r-bar-icon {
+    height: 40%;
+    width: 12%;
+    cursor: pointer;
+  }
+  .n-r-bar-icon img {
+    height: auto;
+    width: 100%;
+  }
+}

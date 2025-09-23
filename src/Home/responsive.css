@@ -1,0 +1,269 @@
+/* ====== 1102px ====== */
+
+@media (max-width: 1102px) {
+  .about-section-main {
+    width: 90%;
+  }
+}
+
+/* ====== 1182px ====== */
+@media (max-width: 1182px) {
+  .about-section {
+    margin-top: 12%;
+  }
+}
+
+/* ====== 1006px ====== */
+
+@media (max-width: 1006px) {
+  .about-section-main {
+    width: 100%;
+  }
+}
+
+/* ====== 1059px ====== */
+@media (max-width: 1059px) {
+  .mission {
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 20px;
+  }
+  .mission-box {
+    width: calc(99% / 2);
+  }
+  .review-section {
+    margin-top: 40%;
+  }
+}
+
+/* ====== 955px ====== */
+@media (max-width: 955px) {
+  .about-section {
+    margin-top: 20%;
+  }
+}
+/* ====== 925px ====== */
+@media (max-width: 925px) {
+  footer {
+    flex-direction: column;
+  }
+  .fc {
+    width: 100%;
+  }
+}
+
+/* ====== 924px ====== */
+@media (max-width: 924px) {
+  .animation-container {
+    margin-bottom: 27%;
+  }
+}
+
+/* ====== 910px ====== */
+@media (max-width: 910px) {
+  .nav-right {
+    width: 55%;
+  }
+  .n-l-text h2 {
+    font-size: 15px;
+  }
+  .n-links a {
+    font-size: 12px;
+  }
+  .nav-login-btn button {
+    font-size: 13px;
+  }
+}
+
+/* ====== 870px ====== */
+
+@media (max-width: 870px) {
+  :root {
+    --our-story-items-size: 300px;
+  }
+  .a-s-img {
+    width: 350px;
+  }
+  .a-s-r-bottom p {
+    font-size: 14px;
+  }
+  .a-s-r-top h2 {
+    font-size: 22px;
+  }
+}
+
+/* ====== 845px ====== */
+@media (max-width: 845px) {
+  .cu-form-main {
+    flex-direction: column;
+  }
+  .cu-img {
+    height: 100%;
+    width: 22em;
+    margin-left: 2%;
+  }
+}
+
+/* ====== 794px ====== */
+@media (max-width: 794px) {
+  :root {
+    --our-story-items-size: 250px;
+  }
+  .a-s-img {
+    width: 300px;
+  }
+  .a-s-r-bottom p {
+    font-size: 13px;
+  }
+  .a-s-r-top h2 {
+    font-size: 21px;
+  }
+  .about-section-main {
+    padding: 1em;
+  }
+}
+
+/* Between 490px and 845px */
+@media (min-width: 490px) and (max-width: 845px) {
+  .cu-img {
+    width: 30em;
+  }
+}
+
+/* ====== 768px ====== */
+@media screen and (max-width: 768px) {
+  .review-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .review-box {
+    flex: 1 1 100%;
+  }
+  .about-section {
+    margin-top: 25%;
+  }
+}
+
+/* ====== 711px ====== */
+@media (max-width: 711px) {
+  :root {
+    --our-story-items-size: 300px;
+  }
+  .a-s-left {
+    display: flex;
+    justify-content: center;
+  }
+  .a-s-img {
+    width: 90%;
+  }
+  .a-s-img img {
+    height: 100%;
+  }
+  .a-s-r-bottom {
+    height: 250px;
+  }
+  .a-s-r-bottom p {
+    font-size: 14px;
+  }
+  .a-s-r-top h2 {
+    font-size: 22px;
+  }
+  .about-section-main {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    padding-left: 4.3em;
+    padding-right: 4.3em;
+  }
+}
+
+/* ====== 690px ====== */
+@media (max-width: 690px) {
+  .review-section {
+    margin-top: 47%;
+  }
+}
+
+/* ====== 687px ====== */
+@media (max-width: 687px) {
+  .mbt-container h2 {
+    font-size: 18px;
+  }
+}
+
+/* ====== 644px ====== */
+@media (max-width: 644px) {
+  /* Navbar */
+  .nav-left {
+    width: 50%;
+  }
+  .n-l-text h2 {
+    font-size: 13px;
+  }
+  .nav-right {
+    display: none;
+  }
+  .n-r-bar {
+    height: 100%;
+    width: 40%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .n-r-bar-icon {
+    height: 40%;
+    width: 12%;
+    cursor: pointer;
+  }
+  .n-r-bar-icon img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Animation container */
+  .animation-container {
+    margin-bottom: 35%;
+  }
+
+  /* Mission & Review */
+  .mission {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+  }
+  .mission-box {
+    width: 100%;
+  }
+  .review-section {
+    margin-top: 150%;
+  }
+}
+
+/* ====== 550px ====== */
+@media (max-width: 550px) {
+  .animation-container {
+    margin-bottom: 55%;
+  }
+}
+
+/* ====== 473px ====== */
+@media (max-width: 473px) {
+  .about-section {
+    margin-top: 50%;
+  }
+  .about-section-main {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .a-s-r-bottom {
+    height: 325px;
+  }
+  .a-s-img {
+    width: 100%;
+  }
+  .copyright-details p {
+    font-size: 14px;
+  }
+}
